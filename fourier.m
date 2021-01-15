@@ -9,7 +9,7 @@ for k=1:M
   coeff(k+1)=(2/T)*quad(@(t) square(t)*cos(k*pi*t), t0, t0+T);  %calculating a_k
   coeff(k+M+1)=(2/T)*quad(@(t) square(t)*sin(k*pi*t), t0, t0+T);  %calculating b_k
 end
-coeff %display coeff in form of [a_0, a_1, ..., a_M, b_1, ..., b_M]
+coeff %display coeff in form of [a_0 a_1 ... a_M b_1 ... b_M]
 
 %dimension of fourier series array
 N  = length(t);
