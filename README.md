@@ -1,2 +1,1 @@
-# fourier
-Fourier Series Expansion in MATLAB
+# Fourier Series Expansion in MATLAB
